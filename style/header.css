@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('recoleta-regulardemo.otf') format('truetype');
+}
+
+body{
+    background-color: #E5DFD1;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.logo-container{
+    font-family: 'recoleta';
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container{
+    font-family: 'recoleta';
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-list{
+    display: flex; 
+    gap: 50px;
+}
+
+.sign-container{
+    display: flex;
+    gap: 37px;
+    align-items: center;
+    font-family: 'recoleta';
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button{
+    background-color: #FF6813;
+    border-radius: 50px;
+    border: 1px solid;
+    font-weight: bold;
+    font-family: 'recoleta';
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+    height: 38px;
+    box-shadow: 8px 5px 1px black;
+}

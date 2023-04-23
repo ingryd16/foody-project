@@ -1,0 +1,125 @@
+#sec-4{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    align-items: center;
+}
+
+.cima{
+    background-color: blue;
+    width: 90%;
+}
+
+.texts-cima{
+    font-family: 'recoleta';
+    display: grid;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#description{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10%;
+}
+
+.texto{
+    width: 55%;
+    display: flex;
+}
+
+.seta{
+    background-color: #FF6813;
+    border: 2px solid black;
+    box-shadow: -10px -2px 1px black;
+    width: 120px;
+    height: 120px;
+    color: black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.baixo{
+    background-color: cadetblue;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FF6813;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.img-card{
+    background-color: bisque;
+}
+
+.infos{
+    background-color: blue;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infos-card{
+    background-color: aqua;
+    gap: 5px;
+    display: grid;
+}
+
+.name{
+    font-size: 25px;
+    font-family: 'recoleta';
+    font-weight: bold;
+}
+
+.heart{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stars{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.price{
+    background-color: plum;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.percent{
+    background-color: blue;
+    color: red;
+    font-weight: lighter;
+}

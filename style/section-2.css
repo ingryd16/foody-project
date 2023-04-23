@@ -1,0 +1,22 @@
+#sec-2{
+    background-color: #FAF5EC;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.marcas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.marca{
+    display: grid;
+    align-items: center;
+}
+
+#oi{
+    width: 120px;
+}
