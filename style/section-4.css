@@ -1,5 +1,4 @@
 #sec-4{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     padding-top: 5%;
@@ -7,12 +6,10 @@
 }
 
 .cima{
-    background-color: blue;
     width: 90%;
 }
 
 .texts-cima{
-    font-family: 'recoleta';
     display: grid;
 }
 
@@ -50,10 +47,9 @@
 }
 
 .baixo{
-    background-color: cadetblue;
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card{
@@ -65,15 +61,10 @@
     align-items: center;
     border: 1px solid #FF6813;
     gap: 10px;
-    justify-content: space-between;
-}
-
-.img-card{
-    background-color: bisque;
+    justify-content: center;
 }
 
 .infos{
-    background-color: blue;
     display: flex;
     width: 90%;
     align-items: center;
@@ -81,36 +72,32 @@
 }
 
 .infos-card{
-    background-color: aqua;
     gap: 5px;
     display: grid;
 }
 
 .name{
     font-size: 25px;
-    font-family: 'recoleta';
     font-weight: bold;
 }
 
 .heart{
-    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     height: 35px;
     width: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .stars{
-    background-color: beige;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
 }
 
 .price{
-    background-color: plum;
     display: flex;
     width: 90%;
     justify-content: space-between;
@@ -119,7 +106,5 @@
 }
 
 .percent{
-    background-color: blue;
     color: red;
-    font-weight: lighter;
-}
+} 

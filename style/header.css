@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Recoleta';
-    src: url('recoleta-regulardemo.otf') format('truetype');
-}
-
 body{
     background-color: #E5DFD1;
 }
@@ -22,7 +17,6 @@ body{
 }
 
 .logo-container{
-    font-family: 'recoleta';
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
@@ -32,7 +26,6 @@ body{
 }
 
 .menu-container{
-    font-family: 'recoleta';
     list-style-type: none;
     font-size: 16px;
     font-weight: bold;
@@ -48,7 +41,6 @@ body{
     display: flex;
     gap: 37px;
     align-items: center;
-    font-family: 'recoleta';
     font-size: 16px;
     cursor: pointer;
     font-weight: bold;
@@ -59,7 +51,6 @@ body{
     border-radius: 50px;
     border: 1px solid;
     font-weight: bold;
-    font-family: 'recoleta';
     font-size: 16px;
     cursor: pointer;
     width: 120px;
